@@ -36,10 +36,9 @@
 | PuTTY | Serial, 115200, Flow control: None |
 
 ## Налаштування в CubeMX
-![ADC1: канали IN1 та IN2](images/cubemx_adc_pins.png)
-![ADC1: параметри](images/cubemx_adc_params.png)
-![USB_OTG_FS і CDC](images/cubemx_usb.png)
-![Clock Configuration](images/cubemx_clock.png)
+![ADC1: канали IN1 та IN2](Screenshot_42.png)
+![USB_OTG_FS і CDC](Screenshot_43.png)
+![Clock Configuration](Screenshot_44.png)
 
 ## Алгоритм роботи
 1. **Калібрування центру** при старті: усереднення 32 вимірювань у спокої (джойстик не торкатися).
@@ -70,9 +69,9 @@ X:3900 ( +90%)  Y:2040 (  -0%)  RIGHT       BTN:released
 
 ## Результат
 
-![Збірка](images/joy_center.jpg) 
+![Збірка](20261118_130832.jpg) 
 
-![Вивід у PuTTY](images/putty_joystick.png)
+![Вивід у PuTTY](photo_2026-11-18_13-09-07.jpg)
 
 ## Висновки
 Реалізовано зчитування двох осей аналогового джойстика через АЦП у режимі сканування, калібрування нейтрального положення, визначення напряму нахилу з мертвою зоною та передачу даних на ПК через USB CDC для спостереження в PuTTY.
